@@ -1,0 +1,21 @@
+#test box mesh
+push
+move
+200 200 0
+rotate
+y 20
+rotate
+x 20
+box
+-60 100 60 120 200 120
+box
+-20 30 80 40 60 20
+move
+0 0 80
+rotate
+x 30
+box
+-7 7 40 14 14 40
+#display
+save
+light_switch.png
